@@ -1,6 +1,9 @@
-# your code goes here!
 
-def countdown():
+
+import time
+
+
+def countdown_with_sleep():
     number = 10
     while number > 0:
         print(f'{number} SECOND(S)!')
@@ -8,10 +11,3 @@ def countdown():
         number -= 1
 
     print("HAPPY NEW YEAR!") 
-
-
-
-
-
-
-
