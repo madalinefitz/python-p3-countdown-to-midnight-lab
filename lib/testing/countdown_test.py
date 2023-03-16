@@ -1,7 +1,8 @@
 import io
 import sys
 
-from countdown import countdown, countdown_with_sleep
+from countdown import countdown
+from countdown_with_sleep import countdown_with_sleep
 
 class TestCountdown:
     '''Function countdown() in countdown.py'''
